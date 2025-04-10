@@ -14,6 +14,20 @@ const f = () => {
 
     alert(x)
 }
+
+const doSomething = () => {
+    try {
+console.log('do something')
+    } catch(e) {
+
+    }
+}
+
+function bad() {
+    eval("console.log('very insecure')");
+  }
+  bad();
+  
 </script>
 
 <template>
