@@ -19,4 +19,10 @@ console.log('do something')
     }
 }
 
+function bad() {
+    eval("console.log('very insecure')");
+  }
+  bad();
+  
+
 export { getUser };
