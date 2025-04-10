@@ -1,0 +1,6 @@
+{
+  "sonarlint.connectedMode.project": {
+    "connectionId": "sanan-nguyennb",
+    "projectKey": "sanan-nguyennb_test-sonarcloud"
+  }
+}
