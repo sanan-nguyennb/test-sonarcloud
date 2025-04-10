@@ -3,6 +3,17 @@ import { useI18n } from 'vue-i18n';
 import LanguageSwitcher from './components/LanguageSwitcher.vue';
 
 const { t } = useI18n();
+
+const x = 1;
+
+
+const f = () => {
+    if (x >= 1) x = 2
+
+    console.log(x)
+
+    alert(x)
+}
 </script>
 
 <template>

@@ -11,4 +11,12 @@ const getUser = async () => {
     }
 };
 
+const doSomething = () => {
+    try {
+console.log('do something')
+    } catch(e) {
+
+    }
+}
+
 export { getUser };
