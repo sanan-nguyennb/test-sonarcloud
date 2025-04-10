@@ -11,4 +11,18 @@ const getUser = async () => {
     }
 };
 
+const doSomething = () => {
+    try {
+console.log('do something')
+    } catch(e) {
+
+    }
+}
+
+function bad() {
+    eval("console.log('very insecure')");
+  }
+  bad();
+  
+
 export { getUser };

@@ -3,6 +3,31 @@ import { useI18n } from 'vue-i18n';
 import LanguageSwitcher from './components/LanguageSwitcher.vue';
 
 const { t } = useI18n();
+
+const x = 1;
+
+
+const f = () => {
+    if (x >= 1) x = 2
+
+    console.log(x)
+
+    alert(x)
+}
+
+const doSomething = () => {
+    try {
+console.log('do something')
+    } catch(e) {
+
+    }
+}
+
+function bad() {
+    eval("console.log('very insecure')");
+  }
+  bad();
+  
 </script>
 
 <template>
